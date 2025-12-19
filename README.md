@@ -97,11 +97,11 @@ inside controller:
 
     <?php
 
-namespace App\Http\Controllers;
-
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Redis;
-class RedisController extends Controller:
+    namespace App\Http\Controllers;
+    
+    use Illuminate\Http\Request;
+    use Illuminate\Support\Facades\Redis;
+    class RedisController extends Controller:
 
     {
          public function index(){
